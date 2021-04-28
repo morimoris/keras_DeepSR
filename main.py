@@ -26,8 +26,8 @@ if __name__ == "__main__":
     train_dataset_num = 10000
     test_dataset_num = 5
 
-    train_movie_path = "../../rsde/train_sharp"
-    test_movie_path = "../../rsde/val_sharp"
+    train_movie_path = "../../reds/train_sharp"
+    test_movie_path = "../../reds/val_sharp"
 
     BATSH_SIZE = 128
     EPOCHS = 300
