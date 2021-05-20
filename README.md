@@ -1,6 +1,3 @@
-keras_DeepSR
-used DeepSR as a reference
-
 ### Outline of the paper (Japanese)
 https://qiita.com/morimoris/items/09617370be8bfa02a143
 
