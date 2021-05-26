@@ -42,10 +42,10 @@ if __name__ == "__main__":
 
     if args.mode == 'train_datacreate':
         datacreate = data_create.datacreate()
-        train_x, train_y = datacreate.datacreate(train_movie_path,   #切り取る動画のpath
-                                                train_dataset_num,     #データセットの生成数
-                                                cut_num,               #1枚の画像から生成するデータの数
-                                                train_height,          #保存サイズ
+        train_x, train_y = datacreate.datacreate(train_movie_path,     #Path where training data is stored
+                                                train_dataset_num,     #Number of train datasets
+                                                cut_num,               #Number of data to be generated from a single image
+                                                train_height,          #Save size
                                                 train_width)   
         path = "train_data_list"
         np.savez(path, train_x, train_y)
